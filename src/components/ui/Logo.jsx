@@ -1,10 +1,16 @@
-function Logo() {
+import { Link } from "react-router-dom";
+function Logo({ white }) {
   const logoUrl = "/images/logo-preview.png";
+  const whiteLogoUrl = "/images/logo.jpg";
   return (
-    <div className="font- flex items-center gap-3">
-      <img src={logoUrl} alt="Demo Logo" className="h-[50px] w-[50px]" />
-      <h1 className="text-lg font-bold">DEMO Academy, Azare</h1>
-    </div>
+    <Link to="/" className="font- flex cursor-pointer items-center gap-3">
+      <img
+        src={white ? whiteLogoUrl : logoUrl}
+        alt="Demo Logo"
+        className={`h-[50px] w-[50px] rounded-2xl`}
+      />
+      <h1 className="text-xl font-bold">DEMO Academy, Azare</h1>
+    </Link>
   );
 }
 
