@@ -8,7 +8,7 @@ function Button({ style, children, to }) {
       </Link>
     );
   return (
-    <Link to={to} className={`px-10 py-3 hover:opacity-95`}>
+    <Link to={to} className={`px-10 py-3 hover:bg-gray-200 hover:opacity-95`}>
       {children}
     </Link>
   );

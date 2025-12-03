@@ -10,7 +10,7 @@ function Highlight() {
     {
       icon: <HiOutlineTrophy />,
       title: "Academic Excellence",
-      bgcolor: "bg-green-200",
+      bgcolor: "bg-green-100",
       txtcolor: "text-green-600",
       description:
         "Consistently ranked among the top performing schools with 98% graduation rate and outstanding exam results.",
@@ -18,7 +18,7 @@ function Highlight() {
     {
       icon: <HiOutlineUsers />,
       title: "Expert Faculty",
-      bgcolor: "bg-purple-200",
+      bgcolor: "bg-purple-100",
       txtcolor: "text-purple-600",
       description:
         "Consistently ranked among the top performing schools with 98% graduation rate and outstanding exam results.",
@@ -26,7 +26,7 @@ function Highlight() {
     {
       icon: <HiOutlineBookOpen />,
       title: "Modern Facilities",
-      bgcolor: "bg-blue-200",
+      bgcolor: "bg-blue-100",
       txtcolor: "text-blue-600",
       description:
         "State-of-the-art classrooms, science labs, library, and sports facilities to support holistic development.",
