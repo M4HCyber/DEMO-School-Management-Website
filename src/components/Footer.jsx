@@ -6,7 +6,7 @@ import Logo from "./ui/Logo";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="bg-gray-900/95 bg-[url(/images/banner-2.jpg)] bg-cover bg-center text-white bg-blend-darken">
       <div className="container mx-auto px-8 py-8">
         <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-4">
           <div className="space-y-4">

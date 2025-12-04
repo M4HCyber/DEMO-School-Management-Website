@@ -23,7 +23,9 @@ function SendMessage() {
         label="Message"
         placeholder="Please share your message or inquire.."
       />
-      <Button style="text-white text-center bg-blue-900">Send Message</Button>
+      <Button style="bg-linear-to-r from-cyan-500 to-blue-500 text-white text-center bg-blue-900">
+        Send Message
+      </Button>
     </div>
   );
 }

@@ -40,7 +40,7 @@ function Highlight() {
           Discover what makes Sunrise Academy a leader in educational excellence
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid gap-10 md:grid-cols-3">
         {highlights.map((highlight) => (
           <HighlightCard key={highlight.title} highlight={highlight} />
         ))}

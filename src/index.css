@@ -26,7 +26,7 @@
   }
 
   h1 {
-    @apply text-3xl font-bold sm:text-4xl md:text-5xl;
+    @apply text-3xl font-bold sm:text-4xl md:text-5xl/15;
   }
   h2 {
     @apply text-2xl font-extrabold sm:text-3xl md:text-4xl;

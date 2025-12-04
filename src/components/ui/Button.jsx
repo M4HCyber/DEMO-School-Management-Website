@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 function Button({ style, children, to }) {
   if (style)
     return (
-      <Link to={to} className={`rounded px-8 py-3 hover:opacity-95 ${style}`}>
+      <Link
+        to={to}
+        className={`rounded-lg px-8 py-3 hover:opacity-95 ${style}`}
+      >
         {children}
       </Link>
     );

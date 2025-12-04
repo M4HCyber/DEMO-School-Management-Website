@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <section>
-        <div className="bg-blue-600 p-20 text-center text-gray-100">
+        <div className="bg-blue-600 bg-linear-to-r from-blue-500 to-cyan-500 p-20 text-center text-gray-100">
           <div className="m-auto w-[70%] space-y-5">
             <h1 className="font-extrabold">
               About Demonstration Academy, Azare

@@ -29,7 +29,7 @@ function Statistic() {
     },
   ];
   return (
-    <div className="grid grid-cols-4 bg-gray-50 py-10">
+    <div className="grid grid-cols-4 bg-gray-50 px-5 py-10">
       {stats.map((stat) => (
         <StatisticCard key={stat.label} stat={stat} />
       ))}
