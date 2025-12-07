@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function Buttons() {
   return (
-    <div className="space-x-3">
+    <div className="hidden space-x-3 md:block">
       <Button to="/login">Login</Button>
       <Button
         to="/login"

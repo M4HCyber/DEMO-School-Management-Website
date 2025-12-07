@@ -6,8 +6,8 @@ function Contact() {
   return (
     <div>
       <section>
-        <div className="bg-blue-600 bg-linear-to-r from-blue-500 to-cyan-500 p-20 text-center text-gray-100">
-          <div className="m-auto w-[70%] space-y-5">
+        <div className="bg-blue-600 bg-linear-to-r from-blue-500 to-cyan-500 p-10 text-center text-gray-100 md:p-20">
+          <div className="m-auto space-y-5 lg:w-[70%]">
             <h1 className="font-extrabold">Contact Us</h1>
             <p className="text-2xl">
               We&apos;d love to hear from you. Get in touch with us today.
@@ -15,7 +15,7 @@ function Contact() {
           </div>
         </div>
       </section>
-      <section className="grid grid-cols-2 gap-10 px-20 py-15">
+      <section className="grid gap-10 px-10 py-15 md:grid-cols-2 md:px-20">
         <ContactUs />
         <SendMessage />
       </section>

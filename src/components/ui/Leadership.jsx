@@ -30,7 +30,7 @@ function Leadership() {
       <p className="text-xl">
         Meet the dedicated professionals leading our institution
       </p>
-      <div className="m-auto grid w-4xl grid-cols-3 items-center justify-center gap-10">
+      <div className="m-auto grid items-center justify-center gap-10 sm:grid-cols-2 lg:w-4xl lg:grid-cols-3">
         {leaders.map((leader) => (
           <LeaderCard leader={leader} key={leader.img} />
         ))}

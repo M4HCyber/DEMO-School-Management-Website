@@ -73,7 +73,7 @@ const Footer = () => {
           </div>
 
           {/* School Hours */}
-          <div className="space-y-4 md:ml-30">
+          <div className="space-y-4">
             <h3 className="text-lg font-semibold">School Hours</h3>
             <div className="space-y-2">
               <div className="text-sm text-gray-400">

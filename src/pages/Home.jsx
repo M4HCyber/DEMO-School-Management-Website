@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="">
       <section>
-        <div className="relative flex h-screen flex-col items-center justify-center bg-[url(/images/banner-3.png)] bg-cover bg-center p-10 text-gray-100 bg-blend-darken md:items-start md:justify-start md:p-20">
+        <div className="relative flex h-screen flex-col items-center justify-center bg-[url(/images/banner-3.png)] bg-cover bg-center p-10 text-gray-100 bg-blend-darken md:items-start md:justify-start lg:p-20">
           <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-transparent"></div>
           <div className="relative z-10 space-y-10 text-center md:text-left lg:w-[50rem]">
             <h1 className="font-extrabold">

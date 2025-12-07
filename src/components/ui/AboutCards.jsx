@@ -30,7 +30,7 @@ function AboutCards() {
   ];
   return (
     <div className="my-5 space-y-10 px-10 py-10">
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid gap-10 md:grid-cols-3">
         {abouts.map((about) => (
           <AboutCardItem key={about.title} about={about} />
         ))}

@@ -40,7 +40,7 @@ function OurValues() {
         The principles that guide everything we do at Demonstration Academy,
         Academy
       </p>
-      <div className="my-6 grid grid-cols-4 gap-10">
+      <div className="my-6 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
         {values.map((value) => (
           <ValuesCard key={value.title} value={value} />
         ))}

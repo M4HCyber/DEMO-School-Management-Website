@@ -1,3 +1,4 @@
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
 @import "tailwindcss";
 
 @theme {
@@ -17,7 +18,7 @@
   }
 
   body {
-    @apply font-figtree text-gray-900;
+    @apply font-figtree overflow-x-hidden text-[15px] text-gray-700;
   }
 
   body,
