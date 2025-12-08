@@ -13,7 +13,7 @@ function FindUs() {
         <div className="relative z-30 flex h-full w-full flex-1">
           <MapContainer
             center={mapPosition}
-            zoom={13}
+            zoom={8}
             scrollWheelZoom={false}
             className="h-full w-full"
           >

@@ -1,13 +1,9 @@
 import { HiBars3, HiXMark } from "react-icons/hi2";
-import Buttons from "./Buttons";
+import { useHome } from "../../contexts/HomeContext";
 import NavItem from "./NavItem";
-import { useState } from "react";
 
 function NavLinks() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-  function handleClick() {
-    setIsNavOpen((curr) => !curr);
-  }
+  const { handleClick, isNavOpen } = useHome();
   return (
     <>
       <div
@@ -17,7 +13,7 @@ function NavLinks() {
         <HiBars3 />
       </div>
       <ul
-        className={`${isNavOpen ? "translate-x-0" : "translate-x-full"} top-0 right-0 space-y-8 transition duration-700 ease-in-out max-md:absolute max-md:h-dvh max-md:w-[60%] max-md:bg-white max-md:p-10 max-md:text-lg md:flex md:gap-10`}
+        className={`${isNavOpen ? "max-md:translate-x-0" : "max-md:translate-x-full"} top-0 right-0 transition duration-700 ease-in-out max-md:absolute max-md:h-dvh max-md:w-[60%] max-md:space-y-8 max-md:bg-white max-md:p-10 max-md:text-lg md:flex md:gap-10`}
       >
         <span
           onClick={handleClick}
